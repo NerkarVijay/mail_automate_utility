@@ -149,7 +149,7 @@ def send_email(company, name, to_email):
         time.sleep(10)  # Wait for 2 seconds before attempting to delete the sent email
 
         # Delete the email from Sent Items
-        delete_sent_email(msg["Subject"])
+        #delete_sent_email(msg["Subject"])
 
         return datetime.now().strftime("%d-%m-%y")  # Return the sent date
 
